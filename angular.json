@@ -146,5 +146,8 @@
       }
     }
   },
-  "defaultProject": "Forum-Front"
+  "defaultProject": "Forum-Front",
+  "cli": {
+    "analytics": false
+  }
 }

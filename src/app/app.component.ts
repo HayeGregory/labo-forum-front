@@ -13,6 +13,7 @@ export class AppComponent implements AfterViewInit{
   mCollapsibleInstance: M.Collapsible;
 
   ngAfterViewInit() {
+    M.AutoInit();
     this.mCollapsibleInstance = M.Collapsible.init(this.eRef.nativeElement);
   }
 }
